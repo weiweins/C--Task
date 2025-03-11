@@ -1,0 +1,7 @@
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\obj\Debug\Ch1_code.csproj.AssemblyReference.cache
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\obj\Debug\Ch1_code.csproj.CoreCompileInputs.cache
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\bin\Debug\Ch1_code.exe.config
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\bin\Debug\Ch1_code.exe
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\bin\Debug\Ch1_code.pdb
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\obj\Debug\Ch1_code.exe
+C:\Users\Wei\Desktop\Fire-Task\Ch1\Ch1_code\Ch1_code\obj\Debug\Ch1_code.pdb
