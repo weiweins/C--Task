@@ -1,7 +1,0 @@
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\bin\Debug\Ch2_code.exe.config
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\bin\Debug\Ch2_code.exe
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\bin\Debug\Ch2_code.pdb
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\obj\Debug\Ch2_code.csproj.AssemblyReference.cache
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\obj\Debug\Ch2_code.csproj.CoreCompileInputs.cache
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\obj\Debug\Ch2_code.exe
-C:\Users\Wei\Desktop\Fire-Task\CH2\Ch2_code\Ch2_code\obj\Debug\Ch2_code.pdb
