@@ -467,7 +467,6 @@ namespace Ch2_code
 
             Console.ReadKey();
 
-
         }
     }
 }
