@@ -13,8 +13,9 @@ namespace Ch3
     {
         static void Main(string[] args)
         {
-            //3-1：讀入五個整數，求這五個整數的和 (for & while)
+            //重新上傳
 
+            //3-1：讀入五個整數，求這五個整數的和 (for & while)
             // for迴圈：
             Console.WriteLine("請輸入5個整數計算總和：");
             int n = 5;
@@ -902,8 +903,6 @@ namespace Ch3
             }
             Console.Write($"數字 {n} 的質因數為: {result}");
             Console.ReadKey();
-
-
 
 
 
