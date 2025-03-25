@@ -1,0 +1,7 @@
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\bin\Debug\Ch5.exe.config
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\bin\Debug\Ch5.exe
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\bin\Debug\Ch5.pdb
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\obj\Debug\Ch5.csproj.AssemblyReference.cache
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\obj\Debug\Ch5.csproj.CoreCompileInputs.cache
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\obj\Debug\Ch5.exe
+C:\Users\Wei\Desktop\exercises\Ch5\Ch5\Ch5\obj\Debug\Ch5.pdb
