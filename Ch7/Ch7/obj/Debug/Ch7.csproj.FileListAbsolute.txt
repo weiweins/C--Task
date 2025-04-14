@@ -5,3 +5,10 @@ C:\Users\Wei\Desktop\exercises\Ch7\Ch7\Ch7\obj\Debug\Ch7.csproj.AssemblyReferenc
 C:\Users\Wei\Desktop\exercises\Ch7\Ch7\Ch7\obj\Debug\Ch7.csproj.CoreCompileInputs.cache
 C:\Users\Wei\Desktop\exercises\Ch7\Ch7\Ch7\obj\Debug\Ch7.exe
 C:\Users\Wei\Desktop\exercises\Ch7\Ch7\Ch7\obj\Debug\Ch7.pdb
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\bin\Debug\Ch7.exe.config
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\bin\Debug\Ch7.exe
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\bin\Debug\Ch7.pdb
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\obj\Debug\Ch7.csproj.AssemblyReference.cache
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\obj\Debug\Ch7.csproj.CoreCompileInputs.cache
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\obj\Debug\Ch7.exe
+C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\Ch7\obj\Debug\Ch7.pdb

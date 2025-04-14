@@ -91,12 +91,12 @@ namespace Ch7
             Console.WriteLine("程式執行完畢!");
             Console.ReadKey();
 
-            //補充3 讀取fc4bb.csv，並將此資料轉成HTML TABLE 格式，並儲存到指定的HTML檔裡。
+            //補充3 讀取fc4bb.csv，並將此資料轉成HTML TABLE 格式，並儲存到指定的HTML檔裡。  //可以考慮加上網格 (可用html.AppendLine跟foreach)
             string path = @"C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\fc4bb.csv";
             string path1 = @"C:\Users\Wei\Desktop\exercises\Fire-Task\Ch7\index.html";
             List<string> content = File.ReadAllLines(path).ToList();
 
-            string[] lineText = File.ReadAllLines(path);
+            //string[] lineText = File.ReadAllLines(path);
             for (int i = 0; i < content.Count; i++)
             {
                 //    Console.WriteLine(content[i]);
@@ -144,7 +144,7 @@ namespace Ch7
             Console.ReadKey();
 
 
-            //補充1 請設計樂透開獎程式。
+            //補充1 請設計樂透開獎程式。   //可以改用switch寫，程式會比較短
             Console.WriteLine("1-49之間選擇輸入6個號碼 + 1個特別號: ");
             Random rom = new Random();
             string[] myNum = new string[6];
@@ -274,15 +274,16 @@ namespace Ch7
                 {
 
                     Console.WriteLine($"{today}抽過了，請重抽!");
-
+                    //若這裡增加 Console.ReadKey();  可以變成每次抽籤完，要按enter後才會再抽下一次 ...因為每個迴圈都有，所以可以移到if else迴圈外面
                 }
                 else
                 {
 
                     Console.WriteLine($"今天值日生 : {today}");
                     selected.Add(today);
-
+                    //若這裡增加 Console.ReadKey();  可以變成每次抽籤完，要按enter後才會再抽下一次 ...因為每個迴圈都有，所以可以移到if else迴圈外面
                 }
+                Console.ReadKey();
             }
 
             Console.WriteLine("大家都輪過了!");
@@ -322,7 +323,7 @@ namespace Ch7
             DateTime year = DateTime.Today; //今年
             year = year.AddYears(+1); //明年
             int next = (int)year.Year;//轉int 
-            //Console.WriteLine(next);
+                                      //Console.WriteLine(next);
             int result = next - 1911; //轉民國
 
             if (LeapYear(next))
@@ -411,8 +412,8 @@ namespace Ch7
             //得到 S 的值，再依照 S 的值從 0 到 2 分別給與 普通、吉、大吉 等三種不同的運勢，輸出運勢。
             Random rom = new Random();
             DateTime date = new DateTime(2025, 1, 1);
-            date =  date.AddDays(rom.Next(0, 365)); //隨機加天數 0-364天:因為2025不是閏年(若要套用任意年份、+0-366要多判斷是否為閏年)
-            int m = (int) date.Month;
+            date = date.AddDays(rom.Next(0, 365)); //隨機加天數 0-364天:因為2025不是閏年(若要套用任意年份、+0-366要多判斷是否為閏年)
+            int m = (int)date.Month;
             int d = (int)date.Day;
             //Console.WriteLine($"今年日期:{date}");
 
@@ -421,10 +422,12 @@ namespace Ch7
             if (s == 0)
             {
                 Console.WriteLine("運勢：普通");
-            }else if (s == 1)
+            }
+            else if (s == 1)
             {
                 Console.WriteLine("運勢：吉");
-            }else if (s == 2)
+            }
+            else if (s == 2)
             {
                 Console.WriteLine("運勢：大吉");
             }

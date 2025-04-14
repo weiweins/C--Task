@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Wei\\Desktop\\exercises\\Fire-Task\\Ch1\\Ch1_code\\",
+  "WorkspaceRootPath": "C:\\Users\\Wei\\Desktop\\Fire-Task\\Ch1\\Ch1_code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Wei\\Desktop\\exercises\\Fire-Task\\Ch1\\Ch1_code\\Ch1_code\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Ch1_code\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3903ED79-CF0A-499B-9B40-5B4C42F9165B}|Ch1_code\\Ch1_code.csproj|c:\\users\\wei\\desktop\\fire-task\\ch1\\ch1_code\\ch1_code\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903ED79-CF0A-499B-9B40-5B4C42F9165B}|Ch1_code\\Ch1_code.csproj|solutionrelative:ch1_code\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Wei\\Desktop\\exercises\\Fire-Task\\Ch1\\Ch1_code\\Ch1_code\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wei\\Desktop\\Fire-Task\\Ch1\\Ch1_code\\Ch1_code\\Program.cs",
               "RelativeDocumentMoniker": "Ch1_code\\Program.cs",
-              "ToolTip": "C:\\Users\\Wei\\Desktop\\exercises\\Fire-Task\\Ch1\\Ch1_code\\Ch1_code\\Program.cs",
+              "ToolTip": "C:\\Users\\Wei\\Desktop\\Fire-Task\\Ch1\\Ch1_code\\Ch1_code\\Program.cs",
               "RelativeToolTip": "Ch1_code\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
