@@ -58,7 +58,7 @@ namespace Ch1_code
             int c2 = Convert.ToInt32(Console.ReadLine());
 
             int x = ((c1 * b2) - (c2 * b1)) / ((a1 * b2) - (a2 * b1));
-            int y = ((c1 * a2) - (c2 * a2)) / ((b1 * a2) - (a1 * b2));
+            int y = ((c1 * a2) - (c2 * a2)) / ((b1 * a2) - (a1 * b2));  //小錯誤，應更正：y = (c₁a₂ - c₂"a₁") / (b₁a₂ - a₁b₂)
 
             Console.WriteLine("二元一次方程式 x、y 的解為:");
             Console.WriteLine($" x = {x}");
@@ -125,7 +125,7 @@ namespace Ch1_code
 
 
 
-            //作業1-8
+            //作業1-8  
             // (BMI＝體重(公斤)÷身高(公尺)÷身高(公尺)
 
             Console.Write("請輸入身高(m):");
@@ -144,8 +144,11 @@ namespace Ch1_code
             //Console.ReadKey();
 
 
-
-
+            //1-8 作業補充:
+            //可以用ToString("F2")取小數點後2位
+            //value：要四捨五入的數字
+            //digits：要保留的小數位數
+            //可以多補充一個 字串處理 的寫法
 
 
 
