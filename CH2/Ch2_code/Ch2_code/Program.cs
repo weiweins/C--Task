@@ -41,6 +41,7 @@ namespace Ch2_code
             int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"x = {x}、y = {y}");
 
+
             if (x > 0 && y > 0)
             {
                 Console.WriteLine("因 x 、 y 皆為正數，故 z = 1");
@@ -55,6 +56,27 @@ namespace Ch2_code
             }
 
             Console.ReadKey();
+
+            //以上 if else 迴圈可以簡化如下:
+           
+            //int z;  //宣告變數
+            //if (x > 0 && y > 0)
+            //{
+            //    //Console.WriteLine("因 x 、 y 皆為正數，故 z = 1");  //可省略
+            //    z = 1;
+            //}
+            //else if (x < 0 && y < 0)
+            //{
+            //    //Console.WriteLine("因 x 、 y 皆為負數，故 z = -1");  //可省略
+            //    z = -1;
+            //}
+            //else
+            //{
+            //Console.WriteLine("x、y 非皆為正數或皆為負數，故z = 0");  //可省略
+            //    z = 0;
+            //}
+            //Console.WriteLine($"z = {z}");
+            //Console.ReadKey();
 
             //習題2-3
 
@@ -259,7 +281,7 @@ namespace Ch2_code
 
 
 
-            //補充習題2
+            //補充習題2   //可以試著取小數前兩位.四捨五入去計算
             //過輕(BMI<18.5)、健康體重(18.5≦BMI<24)、過重(24≦BMI<27)及肥胖(BMI≧27)
 
             Console.Write("請輸入身高(m):");
@@ -394,7 +416,7 @@ namespace Ch2_code
             }
             else if (Profit > 10 && Profit <= 20)
             {
-                Bonus = 100000 * 0.1;
+                Bonus = 10 * 0.1;   // Bonus = 100000 * 0.1; 錯誤，應訂正為: Bonus = 10 * 0.1;
                 Console.WriteLine($"獎金金額為{(Profit - 10) * 0.075 + Bonus}萬元");
 
             }
@@ -409,7 +431,7 @@ namespace Ch2_code
             {
 
                 Bonus = (10 * 0.1) + (10 * 0.075) + (20 * 0.05);
-                Console.WriteLine($"獎金金額為{(Profit - 40) * 0.03 * 10000 + Bonus}萬元");
+                Console.WriteLine($"獎金金額為{(Profit - 40) * 0.03 + Bonus}萬元");  //錯誤，多寫了 *10000 ，應訂正拿掉
 
             }
             else if (Profit > 60 && Profit <= 100)
@@ -440,7 +462,7 @@ namespace Ch2_code
 
             switch (Score)
             {
-                case int s when (s >= 90):
+                case int s when (s >= 90 && s <= 100): //要多加入判斷分數小於100 ，要有一個區間判斷，最後的 default 才可以有動作
                     Console.WriteLine("grade = A");
                     break;
 
