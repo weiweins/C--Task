@@ -13,7 +13,7 @@ namespace Ch3
     {
         static void Main(string[] args)
         {
-            //重新上傳
+           
 
             //3-1：讀入五個整數，求這五個整數的和 (for & while)
             // for迴圈：
@@ -906,32 +906,37 @@ namespace Ch3
 
 
 
-            //補充習題3 求100到300中可以被3與7整除的個數。(for & while)
+            //補充習題3 求100到300中可以被3與7整除的個數。(for & while)  //需更正:顯示出每一個數
             //for迴圈：
             int result = 0;
+            string num = "";  //訂正加入
             for (int i = 100; i < 301; i++)
             {
                 if (i % 3 == 0 && i % 7 == 0)
                 {
                     result += 1;
+                    num += $"{i}" + " ";  //訂正加入
+
                 }
             }
-            Console.WriteLine(result);
+            Console.WriteLine($"{result}個: {num}");  //訂正
             Console.ReadKey();
 
 
             //while迴圈：
             int result = 0;
             int i = 100;
+            string num = "";  //訂正加入
             while (i < 301)
             {
                 if (i % 3 == 0 && i % 7 == 0)
                 {
                     result += 1;
+                    num += $"{i}" + " ";  //訂正加入
                 }
                 i++;
             }
-            Console.WriteLine(result);
+            Console.WriteLine($"{result}個: {num}"); ;  //訂正
             Console.ReadKey();
 
 
