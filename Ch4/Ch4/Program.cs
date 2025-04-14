@@ -132,7 +132,7 @@ namespace Ch4
                 }
                 else if (num < 13)
                 {
-                    sum += 1;
+                    sum += 1; //錯誤，應更正為 sum += num;
                 }
                 i++;
             }
@@ -229,13 +229,14 @@ namespace Ch4
             int Cost = 5600000;
             int MonthPayment = 40000;
             int Month = 0;
+            
 
             while (Cost >= 0)
             {
                 Cost -= MonthPayment;
                 if (Month % 12 == 11)
                 {
-                    Cost -= 1;
+                    Cost -= 1;  //錯誤，應更正為 Cost-=10000;  或者可以外面宣告一變數 int extra=10000; 這裡改為Cost -= extra;
                 }
                 Month += 1;
 
@@ -260,18 +261,18 @@ namespace Ch4
                 if (get > secret)
                 {
                     Console.WriteLine("小一點!");
-                    count++;
+                    count++;  //每個迴圈都有，所以可以放到if else迴圈外面統一寫一次就好
                 }
                 else if (get == secret)
                 {
                     Console.WriteLine("你贏了!");
-                    count++;
+                    count++;  //每個迴圈都有，所以可以放到if else迴圈外面統一寫一次就好
                     win = true;
                 }
                 else
                 {
                     Console.WriteLine("大一點!");
-                    count++;
+                    count++;  //每個迴圈都有，所以可以放到if else迴圈外面統一寫一次就好
                 }
             } while (count < max && win == false);  //是否繼續再跑執行迴圈的條件
 
