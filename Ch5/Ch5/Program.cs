@@ -21,7 +21,7 @@ namespace Ch5
                 Input = Convert.ToInt32(Console.ReadLine());
                 if (Input > 5)
                 {
-                    Arr[i] = Input;
+                    Arr[i] = Input - 5;
                 }
                 else
                 {
