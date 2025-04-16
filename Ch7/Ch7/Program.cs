@@ -106,6 +106,9 @@ namespace Ch7
                 //    Console.WriteLine(content[i]);
             }
             string tableHtml = "<table>\n" + string.Join("\n", content) + "\n </table>";
+            //以上行可以加入boder格線: string tableHtml = "<table border=\"l\"> \n" + string.Join("\n", content) + "\n </table>";
+
+
 
             File.WriteAllText(path1, tableHtml, Encoding.UTF8);
             Console.ReadKey();
